@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($myCheck) {
         $checkResult = "<b style='color:blue'> Welcome to the mage's tower </b>";
     } else {
-        $checkResult = "<span style='color:purple'> Perhaps you shall attempt the word 'fred'</span>";
+        $checkResult = "<span style='color:pink'> Perhaps you shall attempt the word 'fred'</span>";
     }
 }
 
