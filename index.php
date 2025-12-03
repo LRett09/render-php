@@ -1,6 +1,6 @@
 <?php
 // Initialize variables for the result message and the input text.
-$checkResult = "<span style='color:red'> Try the magic word 'fred'</span>";
+$checkResult = "<span style='color:purple'> Please enter the magic word</span>";
 $myInputText01 = '';
 
 // Check if the form was submitted (i.e., if the request method is POST)
@@ -17,9 +17,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Determine the result message and color
     if ($myCheck) {
-        $checkResult = "<b style='color:green'> Cool! </b>";
+        $checkResult = "<b style='color:blue'> Welcome to the mage's tower </b>";
     } else {
-        $checkResult = "<span style='color:red'> Try the magic word 'fred'</span>";
+        $checkResult = "<span style='color:purple'> Perhaps you shall attempt the word 'fred'</span>";
     }
 }
 
